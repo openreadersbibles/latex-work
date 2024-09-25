@@ -3,13 +3,15 @@ on: [push]
 jobs:
   build_latex:
     runs-on: ubuntu-latest
+    env:
+      ROOT_FILE: bhsa_OT_JON
     steps:
       - name: Set up Git repository
         uses: actions/checkout@v4
       - name: Compile LaTeX document
         uses: xu-cheng/latex-action@v3
         with:
-          root_file: bhsa_OT_JON.tex
+          root_file: ${{ env.ROOT_FILE }}.tex
           latexmk_use_xelatex: true
           extra_fonts: |
             ./fonts/*.ttf
@@ -17,4 +19,12 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: PDF
-          path: bhsa_OT_JON.pdf
+          path: ${{ env.ROOT_FILE }}.pdf
+      - name: Upload PDF file to gh-pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./
+          publish_branch: gh-pages
+          destination_dir: /
+          keep_files: true
