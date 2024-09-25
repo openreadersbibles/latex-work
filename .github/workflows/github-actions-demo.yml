@@ -2,6 +2,8 @@ name: Build LaTeX document
 on: [push]
 jobs:
   build_latex:
+    permissions:
+      contents: write
     runs-on: ubuntu-latest
     env:
       ROOT_FILE: bhsa_OT_JON
