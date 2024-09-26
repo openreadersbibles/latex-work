@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.9.1)  26 SEP 2024 21:50
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.9.1)  26 SEP 2024 22:32
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -490,7 +490,7 @@ LaTeX Warning: No \author given.
 
 
 LaTeX Font Warning: Font shape `TU/SBLBibLit(0)/b/n' undefined
-(Font)              using `TU/SBLBibLit(0)/m/n' instead on input line 14.
+(Font)              using `TU/SBLBibLit(0)/m/n' instead on input line 25.
 
 Missing character: There is no ن (U+0646) in font SBL BibLit/OT:script=hebr;lan
 guage=dflt;!
@@ -512,22 +512,22 @@ Missing character: There is no ت (U+062A) in font SBL BibLit/OT:script=hebr;lan
 guage=dflt;!
 Missing character: There is no ی (U+06CC) in font SBL BibLit/OT:script=hebr;lan
 guage=dflt;!
-LaTeX Font Info:    Calculating math sizes for size <16> on input line 15.
+LaTeX Font Info:    Calculating math sizes for size <16> on input line 26.
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <16> not available
-(Font)              size <17.28> substituted on input line 15.
+(Font)              size <17.28> substituted on input line 26.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <16> not available
-(Font)              size <17.28> substituted on input line 15.
+(Font)              size <17.28> substituted on input line 26.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <16> on input line 15.
+(Font)              <16> on input line 26.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <11.19995> on input line 15.
+(Font)              <11.19995> on input line 26.
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <16> not available
-(Font)              size <17.28> substituted on input line 15.
+(Font)              size <17.28> substituted on input line 26.
 
 
 
@@ -548,12 +548,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 7590 strings out of 474235
- 189292 string characters out of 5744034
- 1924609 words of memory out of 5000000
- 30162 multiletter control sequences out of 15000+600000
- 562883 words of font info for 82 fonts, out of 8000000 for 9000
+ 7596 strings out of 474235
+ 189529 string characters out of 5744034
+ 1925609 words of memory out of 5000000
+ 30166 multiletter control sequences out of 15000+600000
+ 562899 words of font info for 84 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  108i,11n,121p,1256b,525s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on bhsa_OT_JON.xdv (1 page, 5380 bytes).
+Output written on bhsa_OT_JON.xdv (1 page, 6664 bytes).
